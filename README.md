@@ -6,5 +6,13 @@ Project scrapes and analyses Google Maps customer reviews for Papa John's in Fra
 
 - Fetch reviews in multiple languages using SerpAPI  
 - Translate reviews to English via Deep Translator  
-- Use local LLM (e.g., Gemma-3) to cluster complaint themes  
-- Visualise complaint distribution and common words in negative reviews  
+- Use local LLM (e.g., LM Studio Gemma-3) to cluster complaint themes  
+- Visualise complaint distribution and common words in negative reviews (ratings ≤ 3 Stars)
+
+## Repository Structure
+
+root/
+│
+├── reviewAnalysis.ipynb # Jupyter notebook containing the analysis workflow
+├── requirements.txt # Python dependencies 
+├── README.md # This file
