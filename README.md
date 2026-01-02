@@ -14,7 +14,11 @@ Project scrapes and analyses Google Maps customer reviews for Papa John's in Fra
 ```text
 root/
 │
-├── reviewAnalysis.ipynb # Jupyter notebook containing the analysis workflow
-├── requirements.txt # Python dependencies
-├── README.md # This file
+├── reviewAnalysis.ipynb       # Jupyter notebook containing the analysis workflow
+├── requirements.txt           # Python dependencies 
+├── README.md                  # This file
+├── images/                    # Folder containing visualisation images
+│   ├── complaint_categories_pie.png
+│   ├── negative_ratings_histogram.png
+│   └── negative_reviews_wordcloud.png
 ```
