@@ -11,8 +11,10 @@ Project scrapes and analyses Google Maps customer reviews for Papa John's in Fra
 
 ## Repository Structure
 
+```text
 root/
 │
 ├── reviewAnalysis.ipynb # Jupyter notebook containing the analysis workflow
-├── requirements.txt # Python dependencies 
+├── requirements.txt # Python dependencies
 ├── README.md # This file
+```
